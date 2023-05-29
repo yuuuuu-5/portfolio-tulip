@@ -184,20 +184,10 @@ WORKS
 =============================================*/
 
 .works-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.works-item {
-  width: 30%;
-  height: 30%;
-  margin-bottom: 45px;
-}
-
-img.works {
-  width: 100%;
-  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  grid-gap: 5%;
+  justify-content: center;
 }
 
 /*=============================================
