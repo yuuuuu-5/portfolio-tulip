@@ -223,6 +223,240 @@ footer {
   color: #FFFFFF;
   text-align: center;
 }
+
+body {
+  color: #333;
+  font-family: Helvetica, Verdana, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*=============================================
+section共通クラス
+=============================================*/
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #716A67;
+}
+
+.sub-title {
+  font-size: 16px;
+  text-align: center;
+  color: #716A67;
+  margin-bottom: 60px;
+}
+
+p {
+  letter-spacing: 0.02em;
+}
+
+/*=============================================
+header
+=============================================*/
+
+header {
+  padding: 20px 0;
+  background-color: #CF9F96;
+}
+
+.header-left {
+  float: left;
+}
+
+.tulip-icon {
+  width: 37px;
+  height: 37px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.header-nav-item {
+  float: left;
+  margin-left: 50px;
+}
+
+.header-nav-item a {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+/*=============================================
+top
+=============================================*/
+
+.top {
+  background-image: url(../img/zane-priedite-uUxA23EOd3Q-unsplash.jpg);
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.top-title {
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 2px 1px 3px #808080;
+  letter-spacing: 0.05em;
+
+}
+
+/*=============================================
+about
+=============================================*/
+
+.face {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+.about-wrapper {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.about-item-left {
+  float: left;
+  width: 40%;
+}
+
+.about-item-right {
+  float: right;
+  width: 40%;
+}
+
+.name {
+  text-align: center;
+  font-size: 24px;
+  padding: 50px 0 35px 0;
+}
+
+.introduction {
+  text-align: center;
+  font-size: 16px;
+}
+
+/*=============================================
+skill
+=============================================*/
+
+.skill {
+  background-color: #EAD7CC;
+}
+
+.skill-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-item {
+  display: flex;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.img {
+  float: left;
+}
+
+img.icon {
+  width: 130px;
+  height: 130px;
+}
+
+.side_text {
+  float: right;
+  margin: 10px;
+}
+
+/*=============================================
+WORKS
+=============================================*/
+
+.works-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30%);
+  grid-gap: 5%;
+  justify-content: center;
+}
+
+
+/*=============================================
+contact
+=============================================*/
+
+.contact {
+  background-color: #EAD7CC;
+}
+
+.twitter {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.twitter-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+/*=============================================
+footer
+=============================================*/
+
+footer {
+  padding: 10px 0;
+  background-color: #CF9F96;
+}
+
+.copyright {
+  color: #FFFFFF;
+  text-align: center;
+}
+
 /*=============================================
 スマホ用の表示
 =============================================*/
@@ -293,9 +527,7 @@ top
   /*=============================================
   about
 =============================================*/
-.about-wrapper {
-    text-align: center;
-  }
+
   .about-item-left {
     float: none;
     width: 100%;
@@ -332,5 +564,5 @@ top
     float: none;
     text-align: center;
   }
-  
+
 }
