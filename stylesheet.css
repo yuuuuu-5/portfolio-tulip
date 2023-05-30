@@ -293,7 +293,9 @@ top
   /*=============================================
   about
 =============================================*/
-
+.about-wrapper {
+    text-align: center;
+  }
   .about-item-left {
     float: none;
     width: 100%;
