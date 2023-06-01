@@ -127,10 +127,16 @@ about
 
 .about-wrapper {
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.about-item {
+.about-item-left {
+  float: left;
+  width: 40%;
+}
+
+.about-item-right {
+  float: right;
   width: 40%;
 }
 
